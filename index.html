@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://172.16.1.20/index3.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Welcome to my TEST Website</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        background: red;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to my TEST Website</h1>
+<p>If you see this page, web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p color="red">Ansible Host name is {{ ansible_hostname }} <br><br>
+The owner of this server is {{ owner }}<br><br>
+OS family is {{ ansible_os_family }}<br><br>
+Address is {{ ansible_default_ipv4.address }}
+Secret password is '{{ password }}'</p>
+
+<p><em>Thank you for using this website.</em></p>
+
+
+
+</body></html>

@@ -1,28 +1,326 @@
 <!DOCTYPE html>
-<!-- saved from url=(0030)http://172.16.1.20/index3.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Welcome to my TEST Website</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-        background: white;
-    }
-</style>
-</head>
+<html lang="en">
+<head>
+    <title>Site Portfolio</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Portfolio">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    
+    <!-- FontAwesome JS -->
+    <script defer src="assets/fontawesome/js/all.js"></script>
+    
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">  
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar-responsive.css">
+    <!-- github activity css -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">  
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
+
 <body>
-<h1>Welcome to my TEST Website</h1>
-<p>If you see this page, web server is successfully installed and
-working. Further configuration is required.</p>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">     
+	        <div class="row align-items-center">
+			    <div class="col">         
+		            <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/image2.png" alt="profile image" />
+		            <div class="profile-content">
+		                <h1 class="name">Nasibulin Artem</h1>
+		                <h2 class="desc">Network Engineer</h2>   
+		                <p>Age 33</p>
+		            </div><!--//profile-->
+			    </div><!--//col-->
+	            <div class="col-12 col-md-auto">
+		            <div class="dark-mode-switch d-flex">
+						<div class="form-check form-switch mx-auto mx-md-0">
+							<input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
+							<label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+						</div>
+			        </div><!--//dark-mode-switch-->
+	                <a class="btn btn-cta-primary" href="https://t.me/+79635490498" target="_blank"><i class="fas fa-paper-plane"></i> Contact Me</a>        
+	            </div><!--//col-->
+	        </div><!--//row-->         
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper py-5">
+        <div class="row">
+            <div class="primary col-lg-8 col-12">
+                <section class="about section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>I am engineer, who likes to decide interesting complex tasks and automate routine work. I continuously improve myself and learn new branches of knowledge.</p>
+                         
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+    
+               <section class="latest section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">My Projects</h2>
+                        <div class="content">    
+                                               
+                            <div class="item featured text-center">
+                                
+                                <div class="featured-image has-ribbon">
+                                    <a href="Portfolio_website_project.html" target="_blank">
+                                    <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/yc5.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">New</div>
+                                    </div>
+                                </div>
+                                
+                                <h3 class="title mb-3"><a href="Portfolio_website_project.html" target="_blank">Portfolio website project</a></h3>
+                                    
+                                <div class="desc text-start">                                    
+                                    <p>Portfolio website is stored on Yandex Cloud. Project was created using following software: Ansible, Github, Jenkins, Nginx. Operation system of virtual machines is Ubuntu 20.04. Domain name was added to the website and SSL certificate was implemented to allow access via https.  </p>
+									<p><a class="more-link" href="Portfolio_website_project.html" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->         
+                                                
+                            </div><!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://play.google.com/store/apps/details?id=com.sample.explanicon" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-1.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.sample.explanicon" target="_blank">Explanicon - mobile application for Android</a></h3>
+                                    <p class="mb-2">This application deciphers meanings of the most frequently used icons in cars (control panel), laundry labels, food supplements, packaging icons and abbreviations in other areas.  </p>
+                                    <p><a class="more-link" href="https://play.google.com/store/apps/details?id=com.sample.explanicon" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+							<hr class="divider" />
+							
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="https://play.google.com/store/apps/details?id=com.sample.drawer" target="_blank">
+                                <img class="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="https://play.google.com/store/apps/details?id=com.sample.drawer" target="_blank">Yletay - mobile application for Android</a></h3>
+                                    <p class="mb-2">This is guide of the music festival. Application contains useful information about route to the fest, list of necessary things in baggage, list of rules of the fest, and of course line up of musical groups performances.</p>
+                                    <p><a class="more-link" href="https://play.google.com/store/apps/details?id=com.sample.drawer" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                            
+                             
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                
+                </section><!--//section-->
+                
+                
+                <section class="experience section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Telecommunication Engineer - <span class="place"><a href="https://www.irz.ru/">Izhevskiy radiozavod Ltd</a></span> <span class="year">(2017 - Present)</span></h3>
+                                <p>Support and development of the Local Area Network; network equipment setup; tuning monitoring for the network equipment and tracing metrics; network equipment selection and testing; making job documentation; automation systems implementation; access control and management system administration; video security system maintenance; storage systems, inventory system and system of manage configuration administration.</p>
+                            </div><!--//item-->
+							
+							
+							 <div class="item">
+                                <h3 class="title">Lead Engineer - <span class="place"><a href="https://company.ttk.ru/">Telecom-MK Ltd TTK Group</a></span> <span class="year">(2013 - 2017)</span></h3>
+                                <p>Maintenance department management; development and implementation modernization projects of telecommunication network; network equipment setup;  monitoring for the equipment condition; support working capacity of communication equipment; management, coordination and control for the contracting organization jobs; materials and equipment accounting.</p>
+                            </div><!--//item-->
+							
+							
+                            <div class="item">
+                                <h3 class="title">Engineer - <span class="place"><a href="https://company.ttk.ru/">Telecom-MK Ltd TTK Group</a></span> <span class="year">(2012 - 2013)</span></h3>
+                                <p>Optical fiber splicing and laying; communication channels switching; access switches setup; monitoring for the network equipment condition; management of works, concerning repairing and connection of new subscribers to the Internet; development and implementation modernization projects of telecommunication network; realization of scheduled preventive jobs and emergency recovery jobs.</p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Engineer - <span class="place">National Multiservice Networks</span> <span class="year">(2011 - 2012)</span></h3>
+                                <p>Connection of new subscribers to the Internet; client network equipment setup; communication channels switching; optical fiber splicing and laying; development and implementation modernization projects of telecommunication network; realization of scheduled preventive jobs and emergency recovery jobs. </p>
+                            </div><!--//item-->
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+            </div><!--//primary-->
+            <div class="secondary col-lg-4 col-12">
+                 <aside class="info aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+								<li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span> Izhevsk, Russia<li>
+								<li><i class="fas fa-phone"></i><span class="sr-only">Phone:</span> +7(963)549-04-98</li>
+                                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span> <a href="mailto:Gefest-06@yandex.ru"> Gefest-06@yandex.ru</a></li>
+                                <li><i class="fas fa-link"></i><span class="sr-only">Website:</span> <a href="https://www.explanicon.com"> https://www.explanicon.com</a></li>
+								
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+                                Have basic knowledge and experience in following areas:</p>
+                            
+                            <div class="skillset">
+                                
+								
+								
+                                <div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/linux.png" alt="linux"/><h3 class="level-title">&nbsp;&nbsp;&nbsp;Linux</h3>        
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/bash2.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Bash</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/python.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Python</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/mysql2.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Mysql</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/ansible.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Ansible</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/docker.png" alt="linux" /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Docker</h3>
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/github.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;GitHub</h3>
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/jenkins.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Jenkins</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/prometheus.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Prometheus</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/zabbix.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Zabbix</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/grafana.png" alt="linux"  /><h3 class="level-title">&nbsp;&nbsp;&nbsp;Grafana</h3>
+                                </div><!--//item-->
+								
+								<div class="item">
+                                    <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/network.png" alt="linux"/><h3 class="level-title">&nbsp;&nbsp;&nbsp;Networks</h3>        
+                                </div><!--//item-->
+								
+								
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                <aside class="education aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Master's Degree Telecommunication, Diploma with honours</h3>
+                                <h4 class="university">Kalashnikov State Technical University <span class="year">(2010-2012)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i> Bachelor's Degree Communication Networks and Telecommunication Systems, Diploma with honours</h3>
+                                <h4 class="university">Kalashnikov State Technical University <span class="year">(2006-2010)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Intermediate</span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                
+                <aside class="list music aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Certificates & Courses</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+								<li>Epam Systems Engineering School</li>
+                                <li>Cisco CCNA</li>
+                                <li>Huawei HCIA Storage</li>                          
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list conferences aside section">
+                    <div class="section-inner shadow-sm rounded">
+                        <h2 class="heading">Personal Qualities</h2>
+						<div class="content">
+                            <ul class="list-unstyled">
+								<li>Reliable</li>
+                                <li>Diligent</li>
+                                <li>Team player</li>
+								<li>Problem solver</li>
+								<li>Willing to learn</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is free as long as you keep the attribution link below. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
 
-<p style="color:blue;">Ansible Host name is {{ ansible_hostname }} <br><br>
-The owner of this server is me<br><br>
-OS family is {{ ansible_os_family }}<br><br></p>
-<p style="color:red;">Address is 192.168.153.133</p>
-
-<p><em>Thank you for using this website.</em></p>
-<p>version1.0.2</p>
-
-
-</body></html>
